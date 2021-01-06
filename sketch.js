@@ -19,12 +19,12 @@ function setup() {
     sGround2 = new Ground(1150, 350, 200, 20);
 
 
-    block1 = new Block(550, 558, 60, 60);
-    block2 = new Block(590, 558, 60, 60);
-    block3 = new Block(630, 558, 60, 60);
-    block4 = new Block(670, 558, 60, 60);
-    block5 = new Block(710, 558, 60, 60);
-    block6 = new Block(750, 558, 60, 60);
+    block1 = new Block1(550, 558, 60, 60);
+    block2 = new Block1(590, 558, 60, 60);
+    block3 = new Block1(630, 558, 60, 60);
+    block4 = new Block1(670, 558, 60, 60);
+    block5 = new Block1(1710, 558, 60, 60);
+    block6 = new Block1(750, 558, 60, 60);
 
     block7 = new Block2(590, 498, 60, 60);
     block8 = new Block2(630, 498, 60, 60);
@@ -34,11 +34,11 @@ function setup() {
     block11 = new Block3(630, 438, 60, 60);
     block12 = new Block3(670, 438, 60, 60);
 
-    block13 = new Block(650, 378, 60, 60);
+    block13 = new Block1(650, 378, 60, 60);
 
-    block14 = new Block(1110, 308, 60, 60);
-    block15 = new Block(1150, 308, 60, 60);
-    block16 = new Block(1190, 308, 60, 60);
+    block14 = new Block1(1110, 308, 60, 60);
+    block15 = new Block1(1150, 308, 60, 60);
+    block16 = new Block1(1190, 308, 60, 60);
 
     block17 = new Block3(1130, 248, 60, 60);
     block18 = new Block3(1170, 248, 60, 60);

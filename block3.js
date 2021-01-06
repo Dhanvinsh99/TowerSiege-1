@@ -1,8 +1,8 @@
-class Block1 {
+class Block3 {
     constructor(x, y, width, height) {
         var options = {
-            'restitution': 0.4,
-            'friction': 0.5,
+            'restitution': 0,
+            'friction': 1.2,
             'density': 2.2
         }
         this.body = Bodies.rectangle(x, y, width, height, options);
@@ -18,7 +18,7 @@ class Block1 {
         rectMode(CENTER);
         stroke(0);
         strokeWeight(1);
-        fill(255, 0, 0);
+        fill(0, 255, 0);
         rect(pos.x, pos.y, this.width, this.height);
         pop();
     }

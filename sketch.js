@@ -98,6 +98,6 @@ function mouseReleased() {
 
 function keypressed(){
     if(keyCode === 32){
-        rope.attach(ball)
+        rope.attach(ball.body)
     }
 }

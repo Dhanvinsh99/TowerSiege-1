@@ -20,7 +20,7 @@ class Block3 {
         strokeWeight(1);
         fill(0, 255, 0);
         rect(pos.x, pos.y, this.width, this.height);
-        if(this.body.speed === 3){
+        if(this.body.speed > 3){
             this.Visibity = this.Visibilty - 5
             tint(255, this.Visibilty)
             World.remove(this.body)

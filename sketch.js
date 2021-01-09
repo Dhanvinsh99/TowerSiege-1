@@ -84,6 +84,8 @@ function draw() {
     block19.display();
 
     rope.display();
+    keypressed()
+    
 
 }
 

@@ -45,7 +45,7 @@ function setup() {
 
     block19 = new Block2(1150, 188, 60, 60);
 
-    rope = new launcher(ball.body, { x: 150, y: 350 });
+    rope = new launcher(ball.body, { x: 150, y: 550 });
 
 }
 

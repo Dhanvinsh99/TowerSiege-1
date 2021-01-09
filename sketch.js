@@ -95,3 +95,9 @@ function mouseDragged() {
 function mouseReleased() {
     rope.fly();
 }
+
+function keypressed(){
+    if(keyCode === 32){
+        rope.attach(ball)
+    }
+}

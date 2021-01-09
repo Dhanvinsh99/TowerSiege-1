@@ -28,5 +28,8 @@ class launcher {
     fly() {
         this.launcher.bodyA = null;
     }
+    attach(){
+        this.body.bodyA = body
+    }
 
 }

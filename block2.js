@@ -8,7 +8,7 @@ class Block2 {
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-
+        this.Visibilty = 255;
 
         World.add(world, this.body);
     }
@@ -20,6 +20,11 @@ class Block2 {
         strokeWeight(1);
         fill(0, 0, 255);
         rect(pos.x, pos.y, this.width, this.height);
+        if(this.body.speed === 3){
+            this.Visibity = this.Visibilty - 5
+            tint(255, this.Visibilty)
+            World.remove(this.body)
+        }
         pop();
     }
 };
